@@ -1,0 +1,207 @@
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link rel="stylesheet" href="style.css">
+                    <link rel="stylesheet" href="styleHeader.css">
+                    <link rel="stylesheet" href="styleMenu.css">
+                    <link rel="stylesheet" href="styleMain.css">
+                    <link rel="stylesheet" href="styleForm.css">
+                    <title>Abys Voyage</title>
+                </head>
+                <body>
+                    
+                    <header>
+                        <h1>Abys Voyage</h1>
+                    </header>
+                    <div id="centre">
+                            
+                        <aside>
+                            <nav>
+                                    <h3>Menu</h3>
+                                <ul>
+                                    <li><a href="#acceuil"> Acceuil</a> </li>
+                                    <li><a href="#prestations"> Prestations</a> </li>
+                                    <li><a href="#galerie"> Galerie</a> </li>
+                                    <li><a href="#contact"> Contacte</a> </li>
+                                </ul>
+                            </nav>
+                        </aside>  
+                             
+                    <div id="main" >
+                        <div id="acceuil" class="principale" >
+                            <img  src="Images/photo11.jpg" alt="Abys Voyage">
+                            <h2>Let's Go </h2>
+                            <p>ABYS VOYAGE vous apporte : simplicite , conseills , gain de temps , respect de votre Budjet.
+                                prestation de qualité, service & assistance à travers le monde. 
+                            </p>
+                            <p>
+                                Notre service clientele est aux petits soins à n'importe quelle heure de la journée,
+                                et n'importe quel jour de la semaine, pour assurer serinité et bien-etre, l'objectif est simple: <br> 
+                            <strong> Proifez de votre sejours </strong> </p>
+                            <span></span>
+
+
+
+                        </div>
+
+                        <div  class="principale" >
+                            <h2>Préstations</h2>
+
+                            <div id="prestations">
+                                <div class="service">
+                                <img src="images/photo17.jpg" alt="avion">
+                            
+
+                                <h3>Transport</h3>
+                                <p>nous garantissons un transport agreable et sans stresse. Grace à une organisation solide,
+                                   vous n'aurez qu'a vous laisser guider par nos conseillers.</p>
+                            </div>
+
+                            <div class="service">
+                                <img  src="images/photo18.jpg" alt="carte">
+
+                                <h3>Visite</h3>
+                                <p>Découvrez des endroits incroyables et vivez des experiences inidites 
+                                    grace à nos guides locaux sur chaque planéte</p>
+                            </div>
+
+                            <div class="service">
+                                <img src="images/photo12.jpg" alt="Plaisir">
+                        
+
+                                <h3>Plaisir</h3>
+                                <p>Détentez vous en profitant de grandes piscines et des coktails genereusement preparés pour vous
+                                    dans notre selection d'hotel de luxe. </p>
+                            </div>
+                            </div>
+                            <span></span>
+                        </div>
+                        <div id="galerie" class="container" style ="text-align: center;">
+
+                            <h2>Notre Galerie</h2>                            
+                            <!--slide-->
+
+                            <div class="slides">
+                                <img src="images/photo22.jpg" alt="photo1" >
+                            </div>
+                            <div class="slides">
+                                <img src="images/photo2.jpg" alt="photo1" >
+                            </div>
+                             <div class="slides">
+                                <img src="images/photo3.jpg" alt="photo1" >
+                            </div> 
+                            <div class="slides">
+                                <img src="images/photo4.jpg" alt="photo1" >
+                            </div>
+                            <div class="slides">
+                                <img src="images/photo5.jpg" alt="photo1" >
+                            </div>
+                            <div class="slides">
+                                <img src="images/photos19.jpg" alt="photo1">
+                            </div>
+                            <div class="slides">
+                                <img src="images/photo8.jpg" alt="photo1" >
+                            </div>
+                            <div class="slides">
+                                <img src="images/photo9.jpg" alt="photo1">
+                            </div>
+                            <div class="slides">
+                                <img src="images/photo20.jpg" alt="photo1">
+                            </div>
+                            <div class="slides">
+                                <img src="images/photo21.jpg" alt="photo1">
+                            </div>
+
+
+
+                            <!--fleches-->
+                            
+                            <i class="prev" onclick="plusSlides(-1)" href="">&#10094;</i>
+                            <i class="next" onclick="plusSlides(1)" href="">&#10095;</i>
+                            
+ 
+                               </div>
+
+                            <!--boutons-->
+                            <div style="text-align: center;">
+
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                                <span class="dot" onclick="currentSlide(5)"></span>
+                                <span class="dot" onclick="currentSlide(6)"></span>
+                                <span class="dot" onclick="currentSlide(7)"></span>
+                                <span class="dot" onclick="currentSlide(8)"></span>
+                                <span class="dot" onclick="currentSlide(9)"></span>
+                                <span class="dot" onclick="currentSlide(10)"></span>
+                            
+                            </div>  
+                            <span></span>
+
+
+
+                        <div id="contact" class="principale">
+                            <h2>On y va !!</h2>
+                            <p> Qu'attendez vous pour profiter de vacances exceptionnelles à un prix exceptionnel? 
+                                envoyez nous votre demande par mail graceau formulaire ci dessous et nous vous reverons un devis 
+                                <strong>Gratuitement</strong> sous 48h
+                            </p> 
+                            <form action="mailto:thinhinaneaitrabah@gmail.com" method="POST" enctype="text/plain">
+                                <label for="nom"> Votre nom et prénom: </label>
+                                <input type="text" id="nom" name="Votre nom"  placeholder=" Ex: Barack Obama" required>
+
+                                <label for="email"> Votre email: </label>
+                                <input type="email" id="email" name="Votre mail" placeholder="Ex: exemple@gmail.com" required>
+
+                                <label for="depart"> Votre lieu de depart</label>
+                                <input type="text" id="depart" name="Votre lieu de départ" placeholder="Ex: 01/05/2021" required>
+
+                                <label for="destination"> Votre destination souhaitée </label>
+                                <input type="text" id="destination" name="Votre destination souhaitée (en nombre de nuits)" placeholder="Ex: New York" required  >
+
+                                <label for="durée"> Durée du sejours: </label>
+                                <input type="number" min="0" max="100" id="durée" name="Durée de votre sejours" placeholder=" 8 jours et 7 nuits" required>
+                                <button type="submit">  envoyer
+
+                                </button>
+
+                                <p> vous serez redigez vers votre boite de messagerie <br>
+                                il vous suffira d'envoyer le mail automatiquement  crée </p>
+                            </form>
+
+                            
+
+                        </div>
+                        <section>
+                        
+                            <p> Tél fixe: 0 26 49 39 39 /  Tél: 0 559 175 272  </p>
+                            <p> Adresse : local n°02 bis, imm seddiki RN 15, Aguemoune, L-N-I, Tizi Ouzou</p>
+                        </section>
+
+
+                    </div>
+
+                   
+                
+                    
+                </div>
+
+
+               
+                <footer>
+
+
+                    
+                    <p> Projet 2021 - &copy; Wikode  Média- Abys Voyage </p>
+
+                </footer>
+
+
+                <!-- Fichiers JS -->
+                <script src="scripts.js"></script>
+                </body>
+                </html>

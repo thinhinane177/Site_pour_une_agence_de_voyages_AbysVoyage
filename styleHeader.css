@@ -1,0 +1,10 @@
+/*  header*/
+
+header h1
+{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 70px;
+    color: #ffffff;
+    font-style: italic;
+}

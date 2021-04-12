@@ -1,0 +1,37 @@
+form
+{
+    width: 400px;
+    border: 10px solid #001438;
+    padding: 20px;
+}
+
+#contact form {
+    width: 50%;
+    margin: 30px auto;
+    font-size: medium;
+  }
+  
+  #contact form label,
+  #contact form input {
+    display: block;
+    width: 100%;
+  }
+
+  
+  #contact form input {
+    margin-bottom: 10px;
+  }
+  
+  #contact form button {
+    display: block;
+    margin: 20px auto;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  
+  #contact form p {
+    padding: 0;
+  }
+  

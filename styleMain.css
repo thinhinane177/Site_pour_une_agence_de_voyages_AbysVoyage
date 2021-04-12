@@ -1,0 +1,149 @@
+#main
+{
+   display: flex;
+   flex-direction: column;
+   background-color: #ffffff;
+   align-items: stretch;
+   width: 900px;
+   justify-content: center;
+   position: relative;
+   left: 12%;
+   border: 1px solid #001438;
+   padding: auto;
+   margin: 0%;
+
+}
+
+strong
+{
+    width: 20px;
+}
+
+span
+{
+    display: flex;
+    border-bottom: 2px solid #001438;
+    width: 50%;
+    height: 1px;
+    margin: 60px auto;
+}
+
+
+#prestations 
+{
+ display: flex;
+ flex-direction: row;
+ align-items: stretch;
+ justify-content:space-between;
+ padding-left: 35px;
+
+}
+
+.service
+ {
+     margin: 20px;
+     padding: 20px;
+     
+    
+ }
+
+ .service img {
+     width: 200px;
+     height: 150px;
+ }
+
+ 
+ .service h3
+ {
+     text-align: center;
+ }
+
+h2
+{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 80px;
+
+}
+
+p {
+    text-align: center;
+}
+
+
+
+
+#acceuil
+{
+    margin-top: 30px;
+    text-align: center;
+    font-style: italic;
+    padding: 0px;
+    color: #000;
+
+
+
+}
+
+
+/* diapo */
+
+
+.container {
+    margin: auto;
+    position: relative;
+    
+}
+
+.slides img {
+    height: 500px;
+    width: 700px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    top: 65%;
+    transform: translate(0, -50%);
+    padding: 16px;
+    border-radius: 0 3px 3px 0;
+    background: rgba(0, 0,0, 0.5);
+
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius:3px 0 0 3px;
+}
+
+
+
+.prev:hover,
+.next:hover {
+background: rgba(0,0,0,0.8 )
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin :10px 2px 0 2px;
+    display: inline-block;
+    background: #ddd;
+    transition : all .3s;
+
+}
+
+.active,
+.dot:hover {
+    background: #717171;
+}
+

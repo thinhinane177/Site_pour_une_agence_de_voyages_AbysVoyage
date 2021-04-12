@@ -1,0 +1,44 @@
+/* barre de navigation */
+
+aside
+{
+    position: fixed;
+    width: 12%;
+    background-color:  #ffffff;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+
+}
+
+nav h3
+{
+    text-transform: uppercase; /* totalité du text en maj*/
+    font-size: 25px;
+}
+nav ul 
+{
+    list-style-type: none; /* enlever les points*/
+}
+
+nav ul li 
+{
+padding: 20px 0;
+
+}
+
+nav ul li a 
+{
+    text-decoration: none;
+    color: #0044ff;
+
+}
+
+#acceuil
+{
+    margin-top: 30px;
+    text-align: center;
+    font-style: italic;
+    padding: 0px;
+    color: #000;
+
+}

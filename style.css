@@ -13,6 +13,12 @@ body
 }
 
 
+h1, h2, p{
+margin : 0; // pour enlever les de tous les cotés 
+margin-top :0; // pour seulement enlever la marge supérieur
+}
+
+
 
 
 
